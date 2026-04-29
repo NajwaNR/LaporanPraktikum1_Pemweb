@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Teori Pemrograman Web B</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="soal-teori" class="page active">
+        <div class="paper">
+            <h1 class="doc-title">Laporan Teori Pemrograman Web B</h1>
+            
+            <div class="question-group">
+                <h2 class="sub-header">1. <u>Pertanyaan seputar <i>tag</i></u></h2>
+                <ol type="a">
+                    <li>Apa yang dimaksud dengan <i>tag</i> pada html?</li>
+                    <li>Apa itu pembuka dan penutup <i>tag</i>? Apakah hal tersebut terdapat pada semua jenis <i>tag</i>?</li>
+                </ol>
+            </div>
+
+            <div class="question-group">
+                <h2 class="sub-header">2. <u>Pertanyaan seputar <i>element</i></u></h2>
+                <ol type="a">
+                    <li>Apa yang dimaksud dengan <i>element</i>?</li>
+                    <li>Apa yang dimaksud dengan <i><b>tagname, attribute dan content</b></i> pada <i>element</i>?</li>
+                    <li>Apakah <i>elemen</i> dapat ditumpuk? Apa yang terjadi bila demikian?</li>
+                </ol>
+            </div>
+
+            <div class="question-group">
+                <h2 class="sub-header">3. <u>Pertanyaan seputar <i>anchor</i></u></h2>
+                <ol type="a">
+                    <li>Apa yang dimaksud dengan <i>anchor</i>?</li>
+                    <li>Bagaimana caranya <i>anchor</i> dapat berfungsi, baik dari sisi pendefinisian ataupun pengaplikasiannya?</li>
+                </ol>
+            </div>
+
+            <h2 class="sub-header centered">4. <u>Pertanyaan seputar <i>multimedia</i></u></h2>
+            <div class="multimedia-grid">
+                <div class="col">
+                    <h3 class="col-header-no-border">A. <i>Text</i></h3>
+                    <ul>
+                        <li>Sebutkan <i>tag</i><br>yang dapat<br>digunakan untuk<br>memanipulasi<br>konten teks pada<br>html, serta<br>jelaskan fungsinya<br>secara singkat!</li>
+                        <li>Sebutkan <i>tag</i> yang dapat digunakan untuk memanipulasi struktur konten teks pada html!</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="col-header-no-border">B. <i>Image</i></h3>
+                    <ul>
+                        <li>Apabila sebuah <i>tag image</i> tidak menampilkan gambar sebagaimana seharusnya, apa saja yang mungkin menyebabkan hal tersebut?</li>
+                        <li>Apabila ternyata ada teks yang menggantikan gambar tersebut, apa yang sebenarnya terjadi?</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="col-header-no-border">C. <i>Audio</i></h3>
+                    <ul>
+                        <li>Bagaimana caranya untuk kita dapat memasukkan <i>audio source</i> dari <i>web</i> (non-lokal)?</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="col-header-no-border">D. <i>Video</i></h3>
+                    <ul>
+                        <li>Apa yang biasanya terjadi apabila atribut <i>autoplay</i> pada <i>tag video</i> tidak berjalan? Apa yang anda harus lakukan sehingga atribut tersebut dapat berfungsi dengan semestinya?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="jawaban-teori" class="page">
+        <div class="paper">
+            <h1 class="doc-title">Jawaban Teori Pemrograman Web B</h1>
+            
+            <div class="question-group">
+                <h2 class="sub-header">1. <u>Pertanyaan seputar <i>tag</i></u></h2>
+                <ol type="a">
+                    <li>
+                        HTML (Hypertext Markup Language) adalah bahasa yang dipakai dalam menyusun struktur sebuah halaman web dengan cara <i>marking up</i> setiap bagian kontennya, nah penanda ini bernama Tag. Tag ditulis menggunakan dua tanda kurung sudut (&lt; &gt;), yang memberitahu browser bagaimana menampilkan suatu konten. Contoh tag yang sering digunakan: &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;. Tag memberi tahu website misal bagian yang diapit &lt;p&gt; dan &lt;/p&gt; adalah bagian paragraf, &lt;h1&gt; dan &lt;/h1&gt; adalah headingnya.
+                    </li>
+                    <li>
+                        Tag memiliki 2 jenis, pertama Tag Berpasangan (Paired Tags), yang memiliki tag pembuka dan tag penutup. Tag pembuka ditulis biasa seperti &lt;p&gt;, sedangkan tag penutup ditambahkan tanda garis miring, seperti &lt;/p&gt;. Contoh lainnya ada &lt;h1&gt;Judul Besar&lt;/h1&gt;. Jenis tag kedua adalah Tag Tunggal (Empty Tags) yang tidak memiliki tag penutup dan langsung berdiri sendiri seperti &lt;img&gt;, &lt;br&gt;, dan &lt;input&gt;. Tag-tag ini tidak membutuhkan tag penutup karena tidak memiliki konten di dalamnya.
+                    </li>
+                </ol>
+            </div>
+
+            <div class="question-group">
+                <h2 class="sub-header">2. <u>Pertanyaan seputar <i>element</i></u></h2>
+                <ol type="a">
+                    <li>
+                        Setiap halaman web yang dibuka di browser merupakan dokumen HTML yang tersusun dari element-element. Element adalah unit lengkap dalam HTML yang terdiri dari tag pembuka, konten (isi), dan tag penutup. Contohnya &lt;p&gt;Ini adalah sebuah paragraf.&lt;/p&gt; sudah menjadi satu element paragraf yang lengkap.
+                    </li>
+                    <li>
+                        <b>Tagname</b> adalah nama dari tag yang menentukan jenis elemen. Misalnya pada &lt;a href="..."&gt;, tagname-nya adalah a (anchor/tautan). Lalu <b>Attribute</b> adalah informasi tambahan yang diberikan di dalam tag pembuka untuk mengatur perilaku atau tampilan elemen. Contohnya pada &lt;img src="gambar.jpg" alt="Deskripsi gambar"&gt;, atributnya adalah src (lokasi file gambar) dan alt (deskripsi gambar). Kemudian <b>Content</b> adalah isi yang berada di antara tag pembuka dan tag penutup. Bisa berupa teks, gambar, atau elemen HTML lain yang bersarang di dalamnya.
+                    </li>
+                    <li>
+                        Element HTML dapat ditumpuk, misal element &lt;body&gt; bisa memuat elemen &lt;h1&gt; dan &lt;p&gt; di dalamnya, dan &lt;header&gt; bisa memuat &lt;nav&gt; yang memuat &lt;ul&gt; yang memuat &lt;li&gt; didalamnya (Tumpuk tiga). Saat elemen ditumpuk, elemen luar menjadi <i>parent</i> dan elemen dalam menjadi <i>child</i>. Penumpukan harus dilakukan dengan urutan yang benar, yaitu tag yang dibuka terakhir harus ditutup terlebih dahulu agar browser bisa merender tampilan dengan benar.
+                    </li>
+                </ol>
+            </div>
+
+            <div class="question-group">
+                <h2 class="sub-header">3. <u>Pertanyaan seputar <i>anchor</i></u></h2>
+                <ol type="a">
+                    <li>
+                        Anchor adalah elemen HTML yang digunakan untuk membuat hyperlink ke halaman lain, file, atau lokasi tertentu. Contohnya &lt;a href="https://www.google.com"&gt;Kunjungi Google&lt;/a&gt; akan mengarahkan ke halaman Google.com.
+                    </li>
+                    <li>
+                        Anchor didefinisikan menggunakan tag &lt;a&gt; dengan atribut href untuk menentukan URL tujuan, serta atribut target="_blank" jika ingin membuka tautan di tab baru. Dalam pengaplikasiannya, elemen ini digunakan untuk membuat tautan eksternal ke situs lain, tautan internal ke bagian tertentu dalam halaman yang sama menggunakan ID elemen.
+                    </li>
+                </ol>
+            </div>
+
+            <h2 class="sub-header centered">4. <u>Pertanyaan seputar <i>multimedia</i></u></h2>
+            <div class="multimedia-grid">
+                <div class="col">
+                    <h3 class="col-header-no-border">A. Text</h3>
+                    <ul>
+                        <li>Tag HTML seperti &lt;b&gt;, &lt;i&gt;, &lt;u&gt;, dan &lt;mark&gt; digunakan untuk memformat teks (tebal, miring, garis bawah, sorot). Tag &lt;sup&gt; dan &lt;sub&gt; untuk teks kecil di atas dan bawah, sedangkan &lt;span&gt; untuk mengatur bagian teks secara inline dengan CSS.</li>
+                        <li>Tag &lt;h1&gt;–&lt;h6&gt; untuk judul, &lt;p&gt; paragraf, &lt;br&gt; baris baru, &lt;hr&gt; garis, &lt;ul&gt;/&lt;ol&gt; dan &lt;li&gt; untuk daftar, serta &lt;div&gt; untuk mengelompokkan konten.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="col-header-no-border">B. Image</h3>
+                    <ul>
+                        <li>Penyebab Gagal adalah bisa karena Path atau URL pada atribut <i>src</i> salah, atau format atau ekstensi file gambar tidak sesuai, bisa juga karena file gambar rusak atau format gambar tidak didukung oleh browser yang digunakan.</li>
+                        <li>Teks pengganti gambar berasal dari atribut <i>alt</i> pada tag &lt;img&gt;, yang akan ditampilkan saat gambar gagal dimuat dan juga digunakan oleh screen reader.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="col-header-no-border">C. Audio</h3>
+                    <ul>
+                        <li>Memakai tag &lt;audio&gt; dengan atribut <i>controls</i> agar browser menampilkan tombol play, pause, dan volume, kemudian di dalam tag &lt;audio&gt;, tambahkan tag &lt;source&gt; dengan atribut <i>src</i> yang diisi URL langsung menuju file audio di internet (non-lokal).</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="col-header-no-border">D. Video</h3>
+                    <ul>
+                        <li>Browser modern memblokir autoplay dengan suara tanpa interaksi pengguna. Autoplay akan diizinkan jika video dalam kondisi <i>muted</i>, atau setelah pengguna berinteraksi, misal &lt;video autoplay muted controls&gt;.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form-page" class="page">
+        <div class="form-bg-container">
+            <div class="form-card-overlay">
+                <h2 class="form-title">Data Laporan Mahasiswa</h2>
+<form id="mainForm">
+    <table class="form-table">
+        <tr>
+            <td><label for="nama">Nama</label></td>
+            <td><input type="text" id="nama" required placeholder="Nama Mahasiswa"></td>
+        </tr>
+        <tr>
+            <td><label for="nim">NIM</label></td>
+            <td><input type="number" id="nim" maxlength="10" required placeholder="NIM"></td>
+        </tr>
+        <tr>
+            <td><label for="tanggal">Tanggal</label></td>
+            <td><input type="date" id="tanggal" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;">
+                <button type="submit" class="btn-blue-rect">Kirim Data</button>
+            </td>
+        </tr>
+    </table>
+</form>
+            </div>
+        </div>
+    </section>
+
+    <section id="success-page" class="page">
+        <div class="gif-container">
+            <div class="form-card-overlay">
+                <h2 class="form-title" style="color: #4472c4;">Data Telah Berhasil di Kirim</h2>
+                <button onclick="location.reload()" class="btn-blue-rect">Kembali ke Halaman Awal</button>
+            </div>
+            <img src="https://i0.wp.com/justmaths.co.uk/wp-content/uploads/2016/10/celebration-gif.gif?ssl=1" class="full-gif">
+        </div>
+    </section>
+
+    <nav class="bottom-nav">
+        <button onclick="showPage('soal-teori')">Soal Teori</button>
+        <button onclick="showPage('jawaban-teori')">Jawaban Teori</button>
+        <button onclick="showPage('form-page')">Form</button>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
